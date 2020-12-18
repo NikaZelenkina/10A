@@ -1,0 +1,10 @@
+from random import randint 
+a=[randint (0,5) for i in range(5)] 
+print (a) 
+x=int(input()) 
+for i in range (len(a)): 
+if a[i]==x: 
+i+=1 
+print("A[",i,"]=",x,sep="") 
+else: 
+print ("")
