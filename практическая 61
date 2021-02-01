@@ -1,0 +1,13 @@
+s=input("введите строку:")
+s1=""
+for x in s:
+    if x=="а":
+        x="б"
+    elif x=="б":
+        x="а"
+    elif x=="Б":
+        x="А"
+    elif x=="А":
+        x="Б"
+    s1=s1+x
+print(s1)
