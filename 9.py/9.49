@@ -1,0 +1,3 @@
+sl=input("введите слово")
+s=len(sl)
+print("*"*a)
