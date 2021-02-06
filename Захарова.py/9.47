@@ -1,0 +1,3 @@
+ch=int(input("введите число")
+sim=input("введите символ")
+print(sim*ch)
