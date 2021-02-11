@@ -1,3 +1,3 @@
-ch=int(input("введите число")
-sim=input("введите символ")
-print(sim*ch)
+chis=int(input("введите число"))
+sm=input("ваше число")
+print(sm*chis)
