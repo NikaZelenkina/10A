@@ -1,0 +1,7 @@
+sl=input("введите слово")
+glas="о"
+s=0
+for i in sl:
+    if i in glas:
+        s=+1
+print(s)
